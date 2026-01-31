@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sumer's Webpage</title>
+    </head>
+    <body>
+        <h1>Sumer S. Sadawarti</h1>
+        <p>Sumer S. Sadawarti is a developer at CEPT Mumbai.<br>He is currently working on AI for developing a chatbot for Department of Posts.</p>
+        <ul>
+            <li>Completed 10th in 2010.</li>
+            <li>Completed 12th in 2012.</li>
+            <li>Graduated from IIT in 2017</li>
+            <li>Joined <a href="https://www.indiapost.gov.in/">IndiaPost</a> in 2023</li>
+        </ul>
+        <form action="/submit-feedback" method="POST">
+          <fieldset>
+            <legend>Your views about Sumer S. Sadawarti</legend>
+            
+            <!--name field-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <!--email field-->
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            <!--comments field-->
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your view here"></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+    </body>
+</html>

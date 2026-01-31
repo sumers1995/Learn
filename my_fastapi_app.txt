@@ -1,0 +1,30 @@
+my_fastapi_app/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py                # Entry point of the application
+│   ├── api/                   # Folder for API-related code
+│   │   ├── __init__.py
+│   │   ├── router.py          # API router for endpoints
+│   │   └── endpoints/         # Folder for individual endpoint modules
+│   │       ├── __init__.py
+│   │       ├── items.py       # Endpoints related to items
+│   │       └── users.py       # Endpoints related to users
+│   │
+│   ├── models/                # Folder for database models
+│   │   ├── __init__.py
+│   │   └── item.py            # Item model
+│   │
+│   ├── schemas/               # Folder for Pydantic schemas
+│   │   ├── __init__.py
+│   │   └── item.py            # Item schema
+│   │
+│   ├── database/              # Database connection and session management
+│   │   ├── __init__.py
+│   │   └── db.py              # Database setup
+│   │
+│   └── services/              # Business logic and service layer
+│       ├── __init__.py
+│       └── item_service.py     # Logic related to items
+│
+└── requirements.txt            # Dependencies

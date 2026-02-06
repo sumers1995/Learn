@@ -1,0 +1,5 @@
+uv run main.py - run main.py
+uv init - initiate the project
+uv add package_name - installs package_name
+uv remove package_name - removes package_name
+uv sync - syncs project metadata files
